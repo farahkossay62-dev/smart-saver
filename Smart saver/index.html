@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Saver 💰</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Smart Saver 💰</h1>
+    <p>Plan your savings and reach your goal easily!</p>
+
+    <div class="form">
+      <input type="text" id="goalName" placeholder="What do you want to buy? (e.g. Laptop)">
+      <input type="number" id="goalPrice" placeholder="Total price (EGP)">
+      <input type="number" id="currentMoney" placeholder="Money you have now (EGP)">
+      <label>Target Date:</label>
+      <input type="date" id="targetDate">
+      <button id="calcBtn">Calculate Plan</button>
+      <button id="autoPlanBtn">Let the site plan for me</button>
+    </div>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
